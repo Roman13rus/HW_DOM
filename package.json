@@ -1,0 +1,32 @@
+{
+  "name": "dom",
+  "version": "1.0.0",
+  "description": "My first HW",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "author": "Rogachev Roman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "babel-jest": "^29.7.0",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1"
+  }
+}
