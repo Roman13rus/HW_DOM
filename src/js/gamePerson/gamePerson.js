@@ -1,4 +1,4 @@
-import goblin from './img/goblin.png'
+import goblin from './img/goblin.png';
 
 export default class GamePerson {
   constructor(table) {

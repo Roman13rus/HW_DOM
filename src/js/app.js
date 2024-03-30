@@ -1,5 +1,5 @@
 import GamePerson from './gamePerson/gamePerson';
-import '../css/index.css'
+import '../css/index.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   const table = document.querySelector('.playing-field');
